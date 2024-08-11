@@ -1,0 +1,40 @@
+<section   class="portfolio position-relative">
+
+    <h2 class="text-uppercase fw-bold text-center fs-1 pt-4">portfolio component</h2>
+       
+    <div class="d-flex  align-items-center justify-content-center">
+        <div class="line " ></div>
+        <span class="   mx-3"><i class="fa-solid fa-star"></i></span>
+    <div class="line" ></div>
+    </div>
+
+
+<div  class="container">
+    <div  class="row g-5 py-3">
+       
+       @for (item of portfolioList; track $index) {
+        <div (click)="open(item.imgSrc)" class="portfolioItem col-lg-4 col-md-6">
+            <div  class="rounded-3 overflow-hidden position-relative">
+                <img  alt="" class="w-100 rounded-3" [src]="item.imgSrc">
+                <div  class="layer position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
+                    <i  class="text-white fa-solid fa-plus fa-6x"></i>
+                </div>
+            </div>
+        </div>
+        
+       }
+
+       @if (isClicked==true) {
+       <div class="layerImg">
+        <div  class="openImg  position-absolute d-flex   w-50 mx-auto  position-fixed   z-2 " >
+            <img [src]="imgSrc" class="w-100" alt="img">
+            <i (click)="close()" class="text-white fs-3 fa-solid fa-xmark"></i>
+        </div>
+       </div>
+       }
+ 
+</div>
+</div>
+
+
+</section>

@@ -1,0 +1,10 @@
+.activLink{
+    background-color: #1ABC9C;
+   
+    /* border-radius: 20%; */
+}
+
+.navbar{
+    padding: 25px;
+    transition: 0.6s;
+}

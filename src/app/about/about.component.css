@@ -1,0 +1,11 @@
+.about{
+    background-color:#1ABC9C;
+    padding: 160px;
+    padding-top: 230px;
+}
+
+.line{
+    width: 75px;
+    height: 4px;
+   background-color:  aliceblue;
+}

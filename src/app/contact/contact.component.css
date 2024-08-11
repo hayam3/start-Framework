@@ -1,0 +1,18 @@
+.contact{
+padding-top: 120px;
+}
+
+h2{
+    color: #2C3E50;
+}
+
+
+.line{
+    width: 75px;
+    height: 3px;
+   background-color:  #2C3E50;
+}
+
+.line span{
+    color:#2C3E50 ;
+}

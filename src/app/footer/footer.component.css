@@ -1,0 +1,15 @@
+footer{
+    background-color: #2C3E50;
+    padding: 100px;
+    }
+    
+    footer i{
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px white solid;
+    }
+    
+    .end-footer{
+        background-color: #1A252F;
+    }
+    
